@@ -1,0 +1,10 @@
+{
+    "title": "Add new user",
+    "submit": "Save and add",
+    "subtitle": "User information",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "role": "Role",
+    "rolePlaceholder": "Select role"
+}
