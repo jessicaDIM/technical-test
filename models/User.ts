@@ -5,3 +5,10 @@ export interface User {
   email?: string;
   role?: 'ADMIN' | 'DEV';
 }
+
+export interface UserInput {
+  firstName: string;
+  lastName: string;
+  email: string;
+  role: string;
+}
