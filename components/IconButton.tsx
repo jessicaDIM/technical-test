@@ -1,4 +1,4 @@
-import { PropsWithChildren, ReactNode } from 'react';
+import { PropsWithChildren } from 'react';
 
 interface IProps extends React.ComponentProps<'button'>{
   classnames?: string;

@@ -1,6 +1,7 @@
-import { ArrowRightIcon } from '@heroicons/react/24/outline';
-import { IconButton } from '@/components/IconButton';
 import Link from 'next/link';
+import { ArrowRightIcon } from '@heroicons/react/24/outline';
+
+import { IconButton } from '@/components/IconButton';
 
 interface IProps {
   username: string;

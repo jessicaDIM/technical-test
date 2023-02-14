@@ -6,11 +6,11 @@ import { SubmitHandler, useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import { ArrowLeftIcon } from '@heroicons/react/24/outline';
 
+import text from '@/public/locales/en/addUser.json';
 import { Layout } from '@/components/Layout';
 import { IconButton } from '@/components/IconButton';
 import { Label } from '@/components/Label';
 import { useUsers } from '@/hooks/useUsers';
-import text from '@/public/locales/en/addUser.json';
 import { UserInput } from '@/models/User';
 
 const options: { label: string; value: string }[] = [
@@ -44,10 +44,9 @@ export default function AddUserPage() {
   });
 
   const onSubmitHandler: SubmitHandler<UserInput> = (data) => {
-    console.log('DATA', data);
     addUser(data);
-    // reset();
-    // Router.push('/');
+    reset();
+    Router.push('/');
   };
 
   return (

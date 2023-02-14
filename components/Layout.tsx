@@ -1,5 +1,6 @@
-import { ArrowLeftOnRectangleIcon, Cog8ToothIcon, UserCircleIcon, UsersIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
+import { ArrowLeftOnRectangleIcon, Cog8ToothIcon, UserCircleIcon, UsersIcon } from '@heroicons/react/24/outline';
+
 import { IconButton } from './IconButton';
 
 export const Layout = ({ children }: any) => {
