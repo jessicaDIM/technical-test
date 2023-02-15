@@ -4,6 +4,7 @@ After cloning the project on your computer, install all dependencies :
 
 ```bash
 npm install
+```
 
 Once it is done, run the development server:
 
